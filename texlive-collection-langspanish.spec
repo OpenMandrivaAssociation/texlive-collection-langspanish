@@ -1,4 +1,4 @@
-# revision 21528
+# revision 30372
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-langspanish
 Epoch:		1
-Version:	20120224
+Version:	20131013
 Release:	1
 Summary:	Spanish
 Group:		Publishing
@@ -16,15 +16,22 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-langsp
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Requires:	texlive-hyphen-spanish
+Requires:	texlive-collection-basic
+Requires:	texlive-babel-catalan
+Requires:	texlive-babel-galician
+Requires:	texlive-babel-spanish
+Requires:	texlive-es-tex-faq
 Requires:	texlive-hyphen-catalan
 Requires:	texlive-hyphen-galician
-Requires:	texlive-spanish
+Requires:	texlive-hyphen-spanish
+Requires:	texlive-l2tabu-spanish
+Requires:	texlive-latex2e-help-texinfo-spanish
+Requires:	texlive-latexcheat-esmx
+Requires:	texlive-lshort-spanish
 Requires:	texlive-spanish-mx
-Requires:	texlive-collection-basic
 
 %description
-Support for typesetting Spanish.
+Support for Spanish.
 
 #-----------------------------------------------------------------------
 %files
@@ -36,12 +43,3 @@ Support for typesetting Spanish.
 %build
 
 %install
-
-
-%changelog
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
-+ Revision: 780454
-- Update to latest release.
-- Import texlive-collection-langspanish
-- Import texlive-collection-langspanish
-
