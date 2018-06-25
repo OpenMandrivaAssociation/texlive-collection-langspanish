@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-langspanish
 Epoch:		1
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Spanish
 Group:		Publishing
