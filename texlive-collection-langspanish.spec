@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-langspanish
 Epoch:		1
-Version:	20180303
-Release:	3
+Version:	20190228
+Release:	1
 Summary:	Spanish
 Group:		Publishing
 URL:		http://tug.org/texlive
