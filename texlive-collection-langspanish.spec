@@ -1,18 +1,12 @@
-# revision 30372
-# category Collection
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-collection-langspanish
 Epoch:		1
-Version:	20190228
+Version:	54141
 Release:	1
 Summary:	Spanish
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-langspanish.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-langspanish.r54141.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -38,7 +32,7 @@ Support for Spanish.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0
+%autosetup -p1 -c
 
 %build
 
