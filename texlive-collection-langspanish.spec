@@ -6,7 +6,7 @@ Summary:	Spanish
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-langspanish.r54141.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-langspanish.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
