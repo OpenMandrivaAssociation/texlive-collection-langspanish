@@ -1,7 +1,7 @@
 Name:		texlive-collection-langspanish
 Epoch:		1
-Version:	54141
-Release:	2
+Version:	67307
+Release:	1
 Summary:	Spanish
 Group:		Publishing
 URL:		http://tug.org/texlive
