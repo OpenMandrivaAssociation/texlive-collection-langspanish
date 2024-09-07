@@ -1,6 +1,6 @@
 Name:		texlive-collection-langspanish
 Epoch:		1
-Version:	67307
+Version:	72203
 Release:	1
 Summary:	Spanish
 Group:		Publishing
